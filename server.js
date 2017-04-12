@@ -25,7 +25,7 @@ db.once('open', function() {
 });
 */
 
-//require('./config/passport')(passport);
+require('./config/passport')(passport);
 
 // --- Setup express application ---
 app.use(morgan(`dev`)) // log every request to the console
